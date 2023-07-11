@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
 
     private void Initialize()
     {
+        Time.timeScale = 1;
         gameState = GameState.Idle;
         gameStartTimer = gameStartCountDown;
     }
@@ -94,6 +95,7 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
+        Time.timeScale = 0;
         announceText.gameObject.SetActive(true);
 
         if (!player1 && !player2)
