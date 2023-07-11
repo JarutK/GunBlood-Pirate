@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player2
       objectReference: {fileID: 0}
+    - target: {fileID: 979243220425469778, guid: daba70f3876faba458989850380c56c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4511481219361358409, guid: 21c084c997b16a74db497476f260b580, type: 2}
     - target: {fileID: 1042272029151612400, guid: daba70f3876faba458989850380c56c7, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -198,6 +202,18 @@ PrefabInstance:
     - target: {fileID: 8089280716750566927, guid: daba70f3876faba458989850380c56c7, type: 3}
       propertyPath: m_text
       value: P2 [J]
+      objectReference: {fileID: 0}
+    - target: {fileID: 8089280716750566927, guid: daba70f3876faba458989850380c56c7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 21c084c997b16a74db497476f260b580, type: 2}
+    - target: {fileID: 8089280716750566927, guid: daba70f3876faba458989850380c56c7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4511481219361358409, guid: 21c084c997b16a74db497476f260b580, type: 2}
+    - target: {fileID: 8089280716750566927, guid: daba70f3876faba458989850380c56c7, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -590,8 +606,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Gunblood Pirate
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 74e8af80e35bfb04f80c1bca04a2ad99, type: 2}
+  m_sharedMaterial: {fileID: 6048035955369339425, guid: 74e8af80e35bfb04f80c1bca04a2ad99, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -615,10 +631,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 120
+  m_fontSize: 72
   m_fontSizeBase: 120
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -725,8 +741,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press spacebar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 74e8af80e35bfb04f80c1bca04a2ad99, type: 2}
+  m_sharedMaterial: {fileID: 6048035955369339425, guid: 74e8af80e35bfb04f80c1bca04a2ad99, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -750,10 +766,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 120
+  m_fontSize: 72
   m_fontSizeBase: 120
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -812,6 +828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 979243220425469778, guid: daba70f3876faba458989850380c56c7, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 4511481219361358409, guid: 21c084c997b16a74db497476f260b580, type: 2}
     - target: {fileID: 5578667713052412910, guid: daba70f3876faba458989850380c56c7, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -854,6 +874,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5578667713052412910, guid: daba70f3876faba458989850380c56c7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8089280716750566927, guid: daba70f3876faba458989850380c56c7, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 21c084c997b16a74db497476f260b580, type: 2}
+    - target: {fileID: 8089280716750566927, guid: daba70f3876faba458989850380c56c7, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 4511481219361358409, guid: 21c084c997b16a74db497476f260b580, type: 2}
+    - target: {fileID: 8089280716750566927, guid: daba70f3876faba458989850380c56c7, type: 3}
+      propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
